@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Limurse
+        </title>
+        <style>
+            .upper-part{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                padding-top: 200px;
+            }
+            .heading{
+                width: 300px;
+                font-family: Arial;
+            }
+            .para{
+                width: 440px;
+                font-family: Arial;
+                font-size: 17px;
+                color: rgb(57, 57, 57);
+                line-height: 30px;
+            }
+            .left-container{
+                margin-right: 150px;
+                align-items: center;
+            }
+            .right-container img{
+                transition: transform 0.3s ease-in-out;
+                width: 450px;
+            }
+            .right-container img:hover{
+                transform: scale(1.1);
+            }
+            .flex-img-container{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+            }
+            .playstore{
+                height: 40px;
+                cursor: pointer;
+            }
+            
+            .playstore-container img{
+                margin-left: 0px;
+                
+                width: 180px;
+                height: 40px;
+                transition: transform 0.3s ease-in-out;
+            }
+            .playstore-container img:hover{
+                transform: scale(1.1);
+            }
+            .appstore{
+                margin-right: 0px;
+                cursor: pointer;
+            }
+            .appstore img{
+                transition: transform 0.3s ease-in-out;
+            }
+            .appstore img:hover{
+                transform: scale(1.1);
+            }
+            .login-container img{
+                cursor: pointer;
+                margin-top: 20px;
+                transition: transform 0.3s ease-in-out;
+                height: 40px;
+            }
+            .login{
+                cursor: pointer;
+            }
+            .login-container img:hover{
+                transform: scale(1.1);
+            }
+            .middle-part{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                margin-top: 150px;
+            }
+            .left-row{
+                margin-right: 50px;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .left{
+                border-radius: 8px;
+                margin-top: 40px;
+                width: 500px;
+                height: 100px;
+                padding-left: 15px;
+                padding-right: 5px;
+                transition: transform 0.3s ease-in-out;
+                box-shadow: 3px 4px 0 rgba(0, 0, 0, 0.15);
+
+            }
+            .left:hover{
+                transform: scale(1.1);
+            }
+            .right{
+                border-radius: 8px;
+                box-shadow: 3px 4px 0 rgba(0, 0, 0, 0.15);
+                margin-top: 40px;
+                width: 500px;
+                height: 100px;
+                padding-left: 15px;
+                padding-right: 5px;
+                transition: transform 0.3s ease-in-out;
+            }
+            .right:hover{
+                transform: scale(1.1);
+            }
+            .main{
+                margin-top: 10px;
+                margin-bottom: 10px;
+                font-family: Arial;
+            }
+            .body{
+                margin-top: 0px;
+                margin-bottom: 5px;
+                color: gray;
+                font-family: Arial;
+                line-height: 25px;
+            }
+            .lower-part{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                margin-top: 160px;
+            }
+            .first-section{
+                display: flex;
+                flex-direction: column;
+                margin-right: 500px;
+            }
+            
+            .content-container{
+                width: 300px;
+               
+            }
+            .content{
+                color: gray;
+                font-family: Arial;
+                line-height: 25px;
+                margin-top: 4px;
+            }
+            .sponser{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+               
+                width: 200px;
+            }
+            .insta-container{
+                margin-right: 8px;
+            }
+            .insta{
+                cursor: pointer;
+            }
+            .facebook-container{
+                margin-right: 8px;
+            }
+            .facebook{
+                width: 25px;
+                cursor: pointer;
+            }
+            .X-container{
+                margin-right: 8px;
+            }
+            .X{
+                width: 29px;
+                cursor: pointer;
+            }
+            .dscrd-container{
+                margin-right: 8px;
+            }
+            .dscrd{
+                width: 25px;
+                cursor: pointer;
+            }
+            .linked-container{
+                margin-right: 8px;
+            }
+            .linked{
+                width: 25px;
+                cursor: pointer;
+            }
+            .utube{
+                width: 30px;
+                cursor: pointer;
+            }
+            .owner,.document,.about,.open,.privacy,.condition,.blog,.contact,.bug{
+                color: gray;
+                font-family: Arial;
+                cursor: pointer;
+            }
+            .bottom-part{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                margin-top: 10px;
+                margin-bottom: 40px;
+            }
+            .bottom-middle{
+                font-family: Arial;
+                color: gray;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="upper-part">
+            <div class="left-container">
+                <div class="heading-cotainer">
+                    <h1 class="heading">A new age Social Platform: Limurse</h1>
+                </div>
+                <div class="para-container">
+                    <p class="para">Limurse connects you with events, people, and activities happening around your city. Find it near you, supercharge your lifestyle, and meet people with similar interests.</p>
+                </div>
+                <div class="flex-img-container">
+                    <div class="appstore">
+                        <img src="App-store.svg">
+                    </div>
+                    <div class="playstore-container">
+                        <img class="playstore" src="google-play-store.svg">
+                    </div>
+                </div>
+                <div class="login-container">
+                    <img src="login.svg">
+                </div>
+            </div>
+            <div class="right-container">
+                    <img src="brand_logo.webp">
+            </div>
+        </div>
+        <div class="middle-part">
+            <div class="left-row">
+                <div class="left">
+                    <div class="highlight">
+                        <h3 class="main">Find Quests Near You</h3>
+                    </div>
+                    <p class="body">Challenge yourself and see where our quests take you! Have fun while you are at it.</p>
+                </div>
+                <div class="left">
+                    <div class="highlight">
+                        <h3 class="main">Meet People with Similar Interests</h3>
+                    </div>
+                    <p class="body">Connect with like-minded individuals who share your passions.</p>
+                </div>
+                <div class="left">
+                    <div class="highlight">
+                        <h3 class="main">Engage with Your Community</h3>
+                    </div>
+                    <p class="body">Become an active participant in your community by joining local initiatives and projects.</p>
+                </div>
+            </div>
+            <div class="right-row">
+                <div class="right">
+                    <div class="highlight">
+                        <h3 class="main">Discover Events Near You</h3>
+                    </div>
+                    <p class="body">Find exciting events, gatherings, and activities happening in your vicinity. Gather around and meet new people.</p>
+                </div>
+                <div class="right">
+                    <div class="highlight">
+                        <h3 class="main">Supercharge Your Lifestyle</h3>
+                    </div>
+                    <p class="body">Discover new hobbies, experiences, and opportunities to enhance your life.</p>
+                </div>
+                <div class="right">
+                    <div class="highlight">
+                        <h3 class="main">Explore local places</h3>
+                    </div>
+                    <p class="body">From cozy cafes to unique boutiques, Limurse helps you find and connect with the best local spots.</p>
+                </div>
+            </div>
+        </div>
+        <div class="lower-part">
+            <div class="first-section">
+                <div class="company-logo">
+                    <img src="limurse_horizontal_black.png">
+                </div>
+                <div class="content-container">
+                    <p class="content">Limurse is a social platform that provides users quests within their city.</p>
+                </div>
+                <div class="sponser">
+                    <div class="insta-container"><img class="insta" src="instagram.svg"></div>
+                    <div class="facebook-container"><img class="facebook" src="facebook.svg"></div>
+                    <div class="X-container"><img class="X" src="twitter.svg"></div>
+                    <div class="dscrd-container"><img class="dscrd" src="discord.svg"></div>
+                    <div class="linked-container"><img class="linked" src="linkedin.svg"></div>
+                    <div class="utube-container"><img class="utube" src="youtube.svg"></div>
+                </div>
+                <div class="owner-container">
+                    <p class="owner">Owned by Parklify Private Limited</p>
+                </div>
+            </div>
+            <div class="second-section">
+                <div class="document-container">
+                    <p class="document">Documentation</p>
+                </div>
+                <div class="about-container">
+                    <p class="about">About this App</p>
+                </div>
+                <div class="open-container">
+                    <p class="open">Open Source Libraries</p>
+                </div>
+                <div class="privacy-container">
+                    <p class="privacy">Privacy Policy</p>
+                </div>
+                <div class="condition-container">
+                    <p class="condition">Terms and Conditions</p>
+                </div>
+                <div class="blog-container">
+                    <p class="blog">Blog</p>
+                </div>
+                <div class="contact-container">
+                    <p class="contact">Contact Us</p>
+                </div>
+                <div class="bug-container">
+                    <p class="bug">Bug Report</p>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-part">
+            <p class="bottom-middle">©2024 - Limurse - Parklify Private Limited</p>
+        </div>
+    </body>
+</html>
